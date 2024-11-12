@@ -7,7 +7,7 @@ int main()
 	printf("juice pilado");
 	printf("comeback");
 	printf("New commit\n");
-	printf("inside branch1");
+	printf("inside branch1, introducing conflict");
 	printf("girish owns this branch");
 	return 0 ;
 }
