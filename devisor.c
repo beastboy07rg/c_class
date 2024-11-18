@@ -1,16 +1,21 @@
 #include <stdio.h>
 
-int smallest_divisor(int num) {
-    for (int i = 2; i <= num; i++) {
-        if (num % i == 0) {
+int smallest_divisor(int num)
+{
+    for (int i = 2; i <= num; i++)
+        {
+        if (num % i == 0)
+        {
             return i;
         }
     }
     return num;
 }
 
-int gcd(int a, int b) {
-    while (b != 0) {
+int gcd(int a, int b)
+{
+    while (b != 0)
+        {
         int temp = b;
         b = a % b;
         a = temp;
@@ -18,7 +23,8 @@ int gcd(int a, int b) {
     return a;
 }
 
-int main() {
+int main() 
+{
     int num1, num2;
     
     printf("Enter first number: ");
