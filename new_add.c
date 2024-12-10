@@ -18,9 +18,8 @@ int div(int a , int b);
         printf("the multiplicatiuon is : %d\n",result3);
         printf("the division is : %d\n",result4);
         
-      
-
         return 0 ;
+        
 }
 int add(int a , int b)
 {
